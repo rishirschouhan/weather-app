@@ -1,6 +1,7 @@
 import './App.css';
 import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
+import TimeAndLocation from './components/TimeAndLocation';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
   shadow-xl shadow-gray-400'>
     <TopButtons/>
     <Inputs/>
+
+    <TimeAndLocation/>
   </div>
   );
 }
